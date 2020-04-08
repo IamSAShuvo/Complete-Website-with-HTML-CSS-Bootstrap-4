@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body {
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #505962;
+}
+.offset:before {
+    display: block;
+    content: "";
+    height: 64px;
+    margin-top: -64px;
+}
+/* Navigation */
+.navbar {
+	text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: 0.1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand img {
+	height: 2rem;
+}
+.navbar-nav li {
+	padding-right: 12px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #1ebba3;
+}
+.home-inner {
+	background-image: url(img/computers.png);
+}
+.caption {
+	width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption h1 {
+	font-size: 62px;
+    font-weight: 700;
+    letter-spacing: 4.8px;
+    text-shadow: 1.6px 1.6px 12.8px black;
+    padding-bottom: 16px;
+}
+.caption h3 {
+	font-size: 32px;
+    text-shadow: 1.6px 1.6px 8px black;
+    padding-bottom: 25.6px;
+}
+.btn-lg {
+	border-width: medium;
+    border-radius: 0;
+    padding: 10px 21px;
+    font-size: 17.6px;
+}
+/*Course Section*/
+.narrow {
+    width: 75%;
+    margin: 24px auto;
+    padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 38.4px;
+}
+.btn-secondary {
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 19px;
+    padding: 10px 20px;
+    margin: 32px;
+    color: white;
+    background-color: #1ebba3;
+    border-color: #1ebba3;
+}
+.btn-secondary:hover {
+    background-color: #189582;
+    border-color: #189582;
+}
+.jumbotron {
+    margin-bottom: 0;
+    padding: 32px 0 56px;
+    border-radius: 0;
+}
+h3.heading {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.hading-underline {
+    width: 48px;
+    height: 3px;
+    background-color: #1ebba3;
+    margin: 0 auto 32px;
+}
+.feature svg.svg-inline--fa {
+    color: #1ebba3;
+}
+.feature h3 {
+    font-size: 21px;
+    text-transform: uppercase;
+    padding: 6px;
+}
+.feature p {
+    font-size: 18px;
+}
+/*Resources section*/
+.fixed {
+    background-image: url(img/apple.png);
+    z-index: -1;
+}
+.dark {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 112px 32px;
+}
+.fixed-background h3 {
+    margin-bottom: 32px;
+}
+.fixed-background p {
+    margin-top: 24px;
+}
+/*Client Section*/
+.clients img {
+    width: 100%;
+    border-radius: 50%;
+}
+blockquote .svg-inline--fa {
+    color: #1ebba3;
+    margin: 16px;
+}
+.client-hr {
+    border: 1px solid #1ebba3;
+}
+/*Contact Section*/
+footer {
+    background-color: #40474e;
+    color: white;
+    padding: 32px 0;
+    margin-top: 16px;
+}
+footer img {
+    height: 48px;
+    margin: 24px 0;
+}
+footer a {
+    color: white;
+}
+footer .svg-inline--fa {
+    font-size: 25.6px;
+    margin: 19.2px 8px 0 0;
+}
+footer .svg-inline--fa:hover {
+    color: #1ebba3;
+}
+hr.socket {
+    width: 100%;
+    border-top: 1px solid #666b71;
+    margin-top: 48px;
+}
+/*Media Queries*/
+@media (max-width: 767px) {
+.caption h1 {
+    font-size: 37px;
+    letter-spacing: 2.4px;
+    padding-bottom: 8px;
+}
+.caption h3 {
+    font-size: 19.2px;
+    padding-bottom: 19.2px;
+}
+.btn-lg {
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.narrow h1 {
+    font-size: 24px;
+}
+.clients img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+}
+
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
